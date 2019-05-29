@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Image Search</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
@@ -11,14 +10,18 @@
 </head>
 <body>
     
-    <h1>Image Searching...</h1>
+    <h1>AllenBuff Image Searching...</h1>
 
     <form>
-        <label for="searchTerm">Search Term</label>
-        <input type="text" id="searchTerm" name="searchTerm">
-        <button>Search</button>
+        <label form="searchTerm">Search Term</label>
+        <input class="u-full-width" type="text" id="searchTerm" name="searchTerm">
+        <button type="submit">Search</button>
     </form>
+    <img id="loadingImage" src="https://media1.giphy.com/media/HNQVf0ik57nHy/giphy.gif" />
+    <section class="images">
 
+
+    </section>
     <!-- JavaScript file-->
     <script src="main.js"></script>
 </body>
